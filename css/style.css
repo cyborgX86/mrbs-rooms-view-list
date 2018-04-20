@@ -1,0 +1,225 @@
+html {
+  overflow-x: hidden;
+}
+
+body{
+  background: #e9ebee;
+}
+
+#booking-table {
+  background: #e9ebee;
+	margin: 2% auto -1% auto;
+	text-align: center;
+	width: 95%;
+}
+
+#booking-table #main {
+  background: #e9ebee;
+	top: -13px;
+	border-width: 0px;
+	padding: 30px 20px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+
+}
+
+#booking-table #main h3 {
+  color: #ffffff;
+  font-size: 40px;
+	font-weight: normal;
+	padding: 20px;
+	margin: -20px -20px 50px -20px;
+  background-color: #4267b2;
+	margin-top: -30px;
+	padding-top: 30px;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px;
+}
+
+#booking-table h3 span {
+	display: block;
+	font: bold 25px/50px Georgia, Serif;
+	color: #777;
+  padding: 10px auto;
+	background: #4267b2;
+	height: 100px;
+	width: 100px;
+	margin: 10px auto -65px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+}
+
+#booking-table .bookings {
+	font: 12px 'Lucida Sans', 'trebuchet MS', Arial, Helvetica;
+	background: #303030;
+	color: #375;
+	padding: 20px;
+}
+
+#booking-table .status {
+	display: block;
+	color: #4267b2;
+  background: #fff;
+	height: 50px;
+	width: 30%;
+	margin: 10px auto -65px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+}
+
+#booking-table .status font{
+margin: 0px;
+}
+
+#booking-table ul {
+  width: 100%;
+	margin: 5% 0 0 0;
+	padding: 0;
+	list-style: none;
+	height: 760px;
+  overflow-y: scroll;
+  /*Oculta la barra de scroll en firefox*/
+  overflow: -moz-scrollbars-none;
+  /*Oculta la barra de scroll en IE*/
+  -ms-overflow-style: none;
+}
+/*Oculta la barra de scroll en chrome y safari*/
+#booking-table ul::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+    background: transparent;
+}
+
+#booking-table li {
+	padding: 10px 0;
+	margin: 0px 0 0 0;
+}
+
+#booking-table div .box {
+  color: #4267b2;
+  background: #fff;
+  border-radius: 5px;
+	padding: 10px 0;
+	margin: 0px 5px 0 0;
+}
+
+tbody tr td {
+  font-family: 'Open Sans', sans-serif;
+  font-weight:400;
+  color:#5f6062;
+  font-size:18px;
+  border-bottom:1px solid #e0e0e0;
+  border-radius: 30px 30px 30px 30px;
+	-moz-border-radius: 30px 30px 30px 30px;
+	-webkit-border-radius: 30px 30px 30px 30px;
+	border: 0px solid #000000;
+  margin: 40px;
+  text-align: justify;
+
+}
+
+tbody tr:nth-child(2n) {
+  margin: 0 auto 40px;
+  padding: 5% 0 5% 0;
+  border-radius: 30px 30px 30px 30px;
+	-moz-border-radius: 30px 30px 30px 30px;
+	-webkit-border-radius: 30px 30px 30px 30px;
+	border: 0px solid #000000;
+}
+
+tbody tr:nth-child(2n) th {
+  padding: 1% 1% 1% 1%;
+  font-size: 300%;
+
+}
+
+tbody tr:nth-child(2n) td {
+  padding: 1% 1% 1% 1%;
+  font-size: 200%;
+}
+
+table {
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+th {
+    text-align: center;
+    font-size: 200%;
+}
+
+th.highlight {
+  color: #fff;
+  text-align: center;
+  background: #4267b2;
+  margin: 5%;
+  padding: 5px 0 5px 0;
+  border: 0px solid #000000;
+  border-radius: 20px;
+  margin: 40px;
+}
+
+td {
+    text-align: justify;
+    font-size: 200%;
+}
+
+/*indicators*/
+
+.indicators {
+  display: block;
+  height: 1.2em;
+  list-style-type: none;
+  margin: 0 auto auto 0;
+  width: 100%;
+}
+
+.indicators > li {
+  -moz-border-radius: 0.05em / 0.05em;
+  -webkit-border-radius: 0.05em 0.05em;
+  border-radius: 0.05em / 0.05em;
+  -moz-transition: background-color 0.15s linear;
+  -o-transition: background-color 0.15s linear;
+  -webkit-transition: background-color 0.15s linear;
+  transition: background-color 0.15s linear;
+  cursor: pointer;
+  float: left;
+  height: 100%;
+  margin-left: 0.3em;
+  position: relative;
+  vertical-align: top;
+  width: 1.8em;
+}
+
+.indicators > li:first-child {
+  margin-left: 0;
+}
+
+.indicators > li > em {
+  -moz-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+  background-color: #a3a3a3;
+  content: "";
+  display: inline-block;
+  height: 40%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.indicators li:hover > em {
+  height: 100%;
+}
+
+.indicators > .active > em {
+  background-color: #4d4d4d;
+  height: 100%;
+}
