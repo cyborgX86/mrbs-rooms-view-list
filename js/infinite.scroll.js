@@ -26,7 +26,7 @@ function append_clone(){
 /* pageScroll() activa el scroll de los elementos de la lista.*/
 function pageScroll() {
 
-	var objDiv = document.getElementById("contain");
+  var objDiv = document.getElementById("contain");
   objDiv.scrollTop = objDiv.scrollTop + 1;
   if (objDiv.scrollTop == (objDiv.scrollHeight - 760)) { //valor=elemento css
       objDiv.scrollTop = 0;
