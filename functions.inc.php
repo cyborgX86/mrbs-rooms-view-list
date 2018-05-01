@@ -98,6 +98,7 @@ sistema.*/
  <li> para cada uno de ellos dentro de la clase css "indicartors".*/
 
 function getIndicators($qry){
+ 
   global $date;
   global $time;
 
