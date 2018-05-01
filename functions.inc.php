@@ -43,7 +43,7 @@ del sistema.*/
 function occupationState($qryState){
 
   global $date;
-   global $time;
+  global $time;
 
   $row = mysqli_fetch_array($qryState);
   $dateBookingEnd = substr($row[3],0,10);
