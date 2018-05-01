@@ -15,6 +15,4 @@ $title = 'Título'; //encabezado.
 
 $dateRange = '30'; //número de días considerados para próximos eventos.
 
-
-
 ?>
